@@ -14,7 +14,6 @@ function calculate() {
    const history = Number(inputField[4].value);
    const arts = Number(inputField[5].value);
 
-
       if (inputField[0].value === '') {
          errorHandle[0].innerText = "Subject marks should not be empty";
          inputField[0].style.border = "1px solid red";
@@ -141,30 +140,25 @@ function calculate() {
          errorHandle[5].style.color = "";
       }
 
-
-   
-         total = hindi + english + maths + history + arts + science;
+      total = hindi + english + maths + history + arts + science;
       console.log(total);
-
       if (hindi < 33) {
-         resultShow.innerText = `You have failed in hindi Your marks should be greater then 32 ${total} `
+         resultShow.innerText = `You have failed in hindi Your marks should be greater then 32 number ${total} `
       }
-      else if (english < 33) {
+       if (english < 33) {
          resultShow.innerText = `You have failed in english Your marks should be greater then 32 ${total} `
       }
 
-      else if (maths < 33) {
+       if (maths < 33) {
          resultShow.innerText = `You have failed in Math Your marks should be greater then 32 ${total} `
-      } else if (science < 33) {
+      }  if (science < 33) {
          resultShow.innerText = `You have failed in Science Your marks should be greater then 32 ${total} `
-      } else if (arts < 33) {
+      }  if (arts < 33) {
          resultShow.innerText = `You have failed in Arts Your marks should be greater then 32 ${total} `
-      } else if (history < 33) {
+      }  if (history < 33) {
          resultShow.innerText = `You have failed in History Your marks should be greater then 32 ${total} `
       }
-      else {
-         resultShow.innerText = `Your have passed you total marks is ${total}`
-      }
+      // resultShow.innerText = `Your have passed you total marks is ${total}`
    }
 
 

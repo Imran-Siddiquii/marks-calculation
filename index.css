@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+main{
+    
+    width: fit-content;
+    margin: 30px auto;
+    box-shadow: 1px -1px 2px 2px #f08080;
+    padding: 10px 18px;
+}
+
+button{
+    display: block;
+    padding: 8px 15px;
+    background: #f08080;
+    border: none;
+    border-radius: 5px;
+    margin:14px auto;
+}
+p{
+    font-size: 19px;
+    text-align: center;
+    margin-top: 5px;
+}
+th, td {
+    padding: 1px 16px;
+  }
+.table tr{
+    font-size: 18px;
+    margin: 11px auto;
+
+}
+.table tr input{
+    height: 22px;
+    padding: 2px 4px;
+    font-size: 17px;
+    margin: 15px auto;
+
+}
